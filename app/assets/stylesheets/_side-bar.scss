@@ -18,6 +18,15 @@
       }
       &__icons{
         width: 60px;
+        text-align: right;
+          .icon-btn{
+            margin-left: 5px;
+            color: #ffffff;
+          }
+          a{
+            text-decoration: none;
+          }
+
       }
     }
   }
