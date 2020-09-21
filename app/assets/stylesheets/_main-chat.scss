@@ -41,10 +41,10 @@
   &__message-list{
     height: calc(100vh - 190px);
     background-color: #fafafa;
-    padding: 35px 0px 0px 40px;
     &__topbox{
       display: flex;
       padding-bottom: 12px ;
+      padding: 35px 0px 0px 40px;
       &__name{
         color: #333333;
         font-size: 16px;
@@ -59,6 +59,8 @@
       color: #434A54;
       font-size: 14px;
       margin-bottom: 46px;
+
+      padding-left: 40px;
     }
   }
 
@@ -68,7 +70,7 @@
 
     &__box{
       display: flex;
-      padding: 0 40px;
+      padding: 10px 40px;
       &__content{
         display: flex;
         padding: 10px 0 ;
